@@ -22,12 +22,11 @@ Printing the co-efficient and the intercept from the LinearRegression
 ### Step 7
 Predicting the value of C02 for the coresponding Weight and Volume and printing the value
 ## Program:
-```
-/*
-Program to find the multivariative linear regression
-Developed by: Sanjay Ragavendar M K
-RegisterNumber:22009286
-/*
+```py
+#Program to find the multivariative linear regression
+#Developed by: Sanjay Ragavendar M K
+#RegisterNumber:22009286
+
 import pandas as pd
 from sklearn import linear_model
 data=pd.read_csv('/content/cars (1).csv',)
